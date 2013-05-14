@@ -1,0 +1,15 @@
+﻿Room_Dimension(600, 600)
+Dim lbl1 As New Label
+lbl1.Text = "The room's height is: " & Room_Height("GET", 0)
+lbl1.ForeColor = Color.White
+lbl1.Location = New Point(15, 15)
+lbl1.Width = 300
+Me.Controls.Add(lbl1)
+
+Dim lbl2 As New Label 
+lbl2.Text = "The room's width is: " & Room_Width("GET", 0)
+lbl2.ForeColor = Color.White
+lbl2.Location = New Point(15, 45)
+lbl2.Width = 300
+Me.Controls.Add(lbl2)
+

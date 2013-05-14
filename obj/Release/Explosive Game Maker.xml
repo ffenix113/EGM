@@ -1,0 +1,141 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ExplosiveGameMaker
+</name>
+</assembly>
+<members>
+<member name="P:Explosive_Game_Maker.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Explosive_Game_Maker.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Explosive_Game_Maker.My.Resources.Resources._stop">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Explosive_Game_Maker.My.Resources.Resources.audio">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Explosive_Game_Maker.My.Resources.Resources.create">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Explosive_Game_Maker.My.Resources.Resources.debug">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Explosive_Game_Maker.My.Resources.Resources.egm_add">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Explosive_Game_Maker.My.Resources.Resources.egm_folder">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Explosive_Game_Maker.My.Resources.Resources.egm_start">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Explosive_Game_Maker.My.Resources.Resources.egm_stop">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Explosive_Game_Maker.My.Resources.Resources.EGMCore1">
+	<summary>
+  Looks up a localized string similar to 'Option Strict On
+Imports System
+Imports System.Windows.Forms
+Imports System.Windows.Forms.Form
+Imports System.Windows.Forms.Button
+Imports System.Windows.Forms.Application
+Imports Microsoft.VisualBasic
+Imports System.Drawing
+Imports System.Drawing.Image
+Imports System.Diagnostics.Process
+Imports System.IO.DirectoryInfo
+Imports System.IO.FileInfo
+Imports System.IO.Path
+Imports System.IO.StreamReader
+Imports System.Collections.Generic
+
+Public Class EntryPoint
+    Public Shared Sub Main(args  [rest of string was truncated]";.
+</summary>
+</member><member name="P:Explosive_Game_Maker.My.Resources.Resources.EGMCore2">
+	<summary>
+  Looks up a localized string similar to "
+.
+</summary>
+</member><member name="P:Explosive_Game_Maker.My.Resources.Resources.EGMCore3">
+	<summary>
+  Looks up a localized string similar to 
+
+
+'Core functions
+
+    Private Sub Me_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.KeyPreview = True
+    End Sub
+	
+    Public CallLeftUp As String = "LeftUp"
+    Public CallRightUp As String = "RightUp"
+    Public CallDownUp As String = "DownUp"
+    Public CallUpUp As String = "UpUp"
+    Public CallLeftDown As String = "LeftDown"
+    Public CallRightDown As String = "RightDown"
+    Public CallDownDown As String = "DownDown"
+    Public CallUpDown As String = "UpDown" [rest of string was truncated]";.
+</summary>
+</member><member name="P:Explosive_Game_Maker.My.Resources.Resources.EGMCore4">
+	<summary>
+  Looks up a localized string similar to 
+
+End Sub
+'Dec will go here.
+</summary>
+</member><member name="P:Explosive_Game_Maker.My.Resources.Resources.EGMCore5">
+	<summary>
+  Looks up a localized string similar to End Class
+'script to go here now.....
+</summary>
+</member><member name="P:Explosive_Game_Maker.My.Resources.Resources.loading">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Explosive_Game_Maker.My.Resources.Resources.script">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Explosive_Game_Maker.My.Resources.Resources.small_logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Explosive_Game_Maker.My.Resources.Resources.Tokens">
+	<summary>
+  Looks up a localized string similar to Room_Height,CornflowerBlue
+Room_Width,CornflowerBlue
+Room_Dimension,CornflowerBlue
+Score,CornflowerBlue
+DrawScore,CornflowerBlue
+Draw_Sprite,CornflowerBlue
+Lives(),CornflowerBlue
+"SET",LightGreen
+"GET",LightGreen
+xScore,Indigo
+xLives,Indigo
+lblLives,Indigo.
+</summary>
+</member><member name="T:Explosive_Game_Maker.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

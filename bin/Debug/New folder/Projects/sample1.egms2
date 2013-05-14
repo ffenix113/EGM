@@ -1,0 +1,15 @@
+﻿Public Sub LeftUp()
+MsgBox("You released the Left key")
+End Sub
+
+Public Sub RightUp()
+MsgBox("You released the Right key")
+End Sub
+
+Public Sub DownUp()
+MsgBox("You released the Down key")
+End Sub
+
+Public Sub UpUp()
+MsgBox("You released the Up key")
+End Sub

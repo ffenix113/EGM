@@ -1,0 +1,61 @@
+C:\Users\Thomas\AppData\Local\Temporary Projects\Explosive Game Maker\bin\Debug\Explosive Game Maker.exe.config
+C:\Users\Thomas\AppData\Local\Temporary Projects\Explosive Game Maker\bin\Debug\Explosive Game Maker.exe
+C:\Users\Thomas\AppData\Local\Temporary Projects\Explosive Game Maker\bin\Debug\Explosive Game Maker.pdb
+C:\Users\Thomas\AppData\Local\Temporary Projects\Explosive Game Maker\bin\Debug\Explosive Game Maker.xml
+C:\Users\Thomas\AppData\Local\Temporary Projects\Explosive Game Maker\obj\Debug\Explosive_Game_Maker.Resources.resources
+C:\Users\Thomas\AppData\Local\Temporary Projects\Explosive Game Maker\obj\Debug\Explosive Game Maker.vbproj.GenerateResource.Cache
+C:\Users\Thomas\AppData\Local\Temporary Projects\Explosive Game Maker\obj\Debug\Explosive Game Maker.exe
+C:\Users\Thomas\AppData\Local\Temporary Projects\Explosive Game Maker\obj\Debug\Explosive Game Maker.xml
+C:\Users\Thomas\AppData\Local\Temporary Projects\Explosive Game Maker\obj\Debug\Explosive Game Maker.pdb
+C:\Users\Thomas\AppData\Local\Temporary Projects\Explosive Game Maker\obj\Debug\Explosive_Game_Maker.frmEngine.resources
+C:\Users\Thomas\AppData\Local\Temporary Projects\Explosive Game Maker\obj\Debug\Explosive_Game_Maker.frmGlobalSettings.resources
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\bin\Debug\Explosive Game Maker.exe.config
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\bin\Debug\Explosive Game Maker.exe
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\bin\Debug\Explosive Game Maker.pdb
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\bin\Debug\Explosive Game Maker.xml
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\bin\Debug\FastColoredTextBox.dll
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\obj\Debug\Explosive_Game_Maker.ColorChooser.resources
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\obj\Debug\Explosive_Game_Maker.frmAddSprite.resources
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\obj\Debug\Explosive_Game_Maker.frmEngine.resources
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\obj\Debug\Explosive_Game_Maker.frmFeedback.resources
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\obj\Debug\Explosive_Game_Maker.frmGlobalSettings.resources
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\obj\Debug\Explosive_Game_Maker.frmLoading.resources
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\obj\Debug\Explosive_Game_Maker.frmNewProject.resources
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\obj\Debug\Explosive_Game_Maker.frmOutputTesting.resources
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\obj\Debug\Explosive_Game_Maker.frmRoom.resources
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\obj\Debug\Explosive_Game_Maker.frmScrptWndw.resources
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\obj\Debug\Explosive_Game_Maker.frmSplash.resources
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\obj\Debug\Explosive_Game_Maker.frmTips.resources
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\obj\Debug\Explosive_Game_Maker.Resources.resources
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\obj\Debug\Explosive Game Maker.vbproj.GenerateResource.Cache
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\obj\Debug\Explosive Game Maker.exe
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\obj\Debug\Explosive Game Maker.xml
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\obj\Debug\Explosive Game Maker.pdb
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\bin\Debug\Explosive Game Maker.exe.manifest
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\bin\Debug\Explosive Game Maker.application
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\obj\Debug\Explosive Game Maker.exe.manifest
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Explosive Game Maker\Explosive Game Maker\obj\Debug\Explosive Game Maker.application
+D:\Projects\EGM\EGM\bin\Debug\Explosive Game Maker.exe.config
+D:\Projects\EGM\EGM\obj\Debug\Explosive Game Maker.exe
+D:\Projects\EGM\EGM\obj\Debug\Explosive Game Maker.xml
+D:\Projects\EGM\EGM\obj\Debug\Explosive Game Maker.pdb
+D:\Projects\EGM\EGM\bin\Debug\Explosive Game Maker.exe.manifest
+D:\Projects\EGM\EGM\bin\Debug\Explosive Game Maker.application
+D:\Projects\EGM\EGM\bin\Debug\Explosive Game Maker.exe
+D:\Projects\EGM\EGM\bin\Debug\Explosive Game Maker.pdb
+D:\Projects\EGM\EGM\bin\Debug\Explosive Game Maker.xml
+D:\Projects\EGM\EGM\obj\Debug\Explosive_Game_Maker.ColorChooser.resources
+D:\Projects\EGM\EGM\obj\Debug\Explosive_Game_Maker.frmAddSprite.resources
+D:\Projects\EGM\EGM\obj\Debug\Explosive_Game_Maker.frmEngine.resources
+D:\Projects\EGM\EGM\obj\Debug\Explosive_Game_Maker.frmFeedback.resources
+D:\Projects\EGM\EGM\obj\Debug\Explosive_Game_Maker.frmGlobalSettings.resources
+D:\Projects\EGM\EGM\obj\Debug\Explosive_Game_Maker.frmLoading.resources
+D:\Projects\EGM\EGM\obj\Debug\Explosive_Game_Maker.frmNewProject.resources
+D:\Projects\EGM\EGM\obj\Debug\Explosive_Game_Maker.frmOutputTesting.resources
+D:\Projects\EGM\EGM\obj\Debug\Explosive_Game_Maker.frmRoom.resources
+D:\Projects\EGM\EGM\obj\Debug\Explosive_Game_Maker.frmScrptWndw.resources
+D:\Projects\EGM\EGM\obj\Debug\Explosive_Game_Maker.frmSplash.resources
+D:\Projects\EGM\EGM\obj\Debug\Explosive_Game_Maker.Resources.resources
+D:\Projects\EGM\EGM\obj\Debug\Explosive Game Maker.vbproj.GenerateResource.Cache
+D:\Projects\EGM\EGM\obj\Debug\Explosive Game Maker.exe.manifest
+D:\Projects\EGM\EGM\obj\Debug\Explosive Game Maker.application

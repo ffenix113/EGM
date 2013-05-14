@@ -1,0 +1,5 @@
+﻿Dim lbl As New Label
+lbl.Text = "This is the Key Events Sample!" & VbNewLine & "Please note that the Key Events are in the ROUTINES tab of the editor!" 
+lbl.ForeColor = Color.White
+lbl.Location = New Point(15, 15)
+Me.Controls.Add(lbl)
