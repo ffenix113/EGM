@@ -1,0 +1,21 @@
+﻿Using Room_Height
+
+You can use Room_Height to Get or Set the Height of a room (the level) 
+
+Call it using: 
+
+Room_Height("GET", 0)
+
+or
+
+Room_Height("SET", 600)
+
+"" is the Get or Set and the integer is the value of the height 
+
+When using GET use is like this:
+
+VariableName = Room_Height("GET", 0)
+VariableName will then become the height of the room 
+
+
+

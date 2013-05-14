@@ -1,0 +1,41 @@
+﻿'Option Strict On
+Imports System
+Imports System.Windows.Forms
+Imports System.Windows.Forms.Form
+Imports System.Windows.Forms.Button
+Imports System.Windows.Forms.Application
+Imports System.Windows.Forms.PaintEventArgs
+Imports Microsoft.VisualBasic
+Imports System.Drawing
+Imports System.Drawing.Image
+Imports System.Drawing.Bitmap
+Imports System.Diagnostics.Process
+Imports System.IO.DirectoryInfo
+Imports System.IO.FileInfo
+Imports System.IO.Path
+Imports System.IO.StreamReader
+Imports System.Collections.Generic
+Imports System.Exception
+Imports System.Drawing.Font
+Imports System.Drawing.Point
+Imports System.Drawing.Graphics
+Imports System.Text
+
+
+Public Class EntryPoint
+    Public Shared Sub Main(args As [String]())
+        Dim FrmMain As New frmGame
+        System.Windows.Forms.Application.Run(FrmMain)
+    End Sub
+End Class
+
+Public Class frmGame
+    Inherits System.Windows.Forms.Form
+
+
+    Sub New()
+        Application.EnableVisualStyles()
+        'Me.FormBorderStyle = Windows.Forms.FormBorderStyle.None
+        'Me.WindowState = FormWindowState.Maximized
+        Me.StartPosition = FormStartPosition.CenterScreen
+            Me.Text = "
