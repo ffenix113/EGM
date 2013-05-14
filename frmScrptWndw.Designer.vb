@@ -22,6 +22,7 @@ Partial Class frmScrptWndw
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmScrptWndw))
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
@@ -69,7 +70,9 @@ Partial Class frmScrptWndw
         Me.ToolStrip1.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
+        CType(Me.rtbScript, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage2.SuspendLayout()
+        CType(Me.rtbScript2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'ToolStrip1
@@ -91,13 +94,13 @@ Partial Class frmScrptWndw
         'ToolStripMenuItem2
         '
         Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(103, 22)
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(152, 22)
         Me.ToolStripMenuItem2.Text = "Save"
         '
         'CloseToolStripMenuItem
         '
         Me.CloseToolStripMenuItem.Name = "CloseToolStripMenuItem"
-        Me.CloseToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
+        Me.CloseToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.CloseToolStripMenuItem.Text = "Close"
         '
         'ToolStripMenuItem3
@@ -110,31 +113,31 @@ Partial Class frmScrptWndw
         'ToolStripMenuItem4
         '
         Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
-        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(125, 22)
+        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(152, 22)
         Me.ToolStripMenuItem4.Text = "Select All "
         '
         'ToolStripMenuItem5
         '
         Me.ToolStripMenuItem5.Name = "ToolStripMenuItem5"
-        Me.ToolStripMenuItem5.Size = New System.Drawing.Size(125, 22)
+        Me.ToolStripMenuItem5.Size = New System.Drawing.Size(152, 22)
         Me.ToolStripMenuItem5.Text = "Cut"
         '
         'ToolStripMenuItem6
         '
         Me.ToolStripMenuItem6.Name = "ToolStripMenuItem6"
-        Me.ToolStripMenuItem6.Size = New System.Drawing.Size(125, 22)
+        Me.ToolStripMenuItem6.Size = New System.Drawing.Size(152, 22)
         Me.ToolStripMenuItem6.Text = "Copy"
         '
         'ToolStripMenuItem7
         '
         Me.ToolStripMenuItem7.Name = "ToolStripMenuItem7"
-        Me.ToolStripMenuItem7.Size = New System.Drawing.Size(125, 22)
+        Me.ToolStripMenuItem7.Size = New System.Drawing.Size(152, 22)
         Me.ToolStripMenuItem7.Text = "Paste"
         '
         'ToolStripMenuItem8
         '
         Me.ToolStripMenuItem8.Name = "ToolStripMenuItem8"
-        Me.ToolStripMenuItem8.Size = New System.Drawing.Size(125, 22)
+        Me.ToolStripMenuItem8.Size = New System.Drawing.Size(152, 22)
         Me.ToolStripMenuItem8.Text = "Clear"
         '
         'ToolStripSplitButton1
@@ -151,7 +154,7 @@ Partial Class frmScrptWndw
         '
         Me.FunctionToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RoomHeightSET600ToolStripMenuItem, Me.RoomHeightGET0ToolStripMenuItem, Me.RoomWidthSET600ToolStripMenuItem, Me.RoomWidthGET0ToolStripMenuItem, Me.RoomDimension600600ToolStripMenuItem, Me.Score0TrueToolStripMenuItem, Me.DrawScoreToolStripMenuItem, Me.LivesToolStripMenuItem, Me.DrawSpritesprNameXlocYlocXsizeYsizeToolStripMenuItem})
         Me.FunctionToolStripMenuItem.Name = "FunctionToolStripMenuItem"
-        Me.FunctionToolStripMenuItem.Size = New System.Drawing.Size(130, 22)
+        Me.FunctionToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.FunctionToolStripMenuItem.Text = "Functions"
         '
         'RoomHeightSET600ToolStripMenuItem
@@ -212,7 +215,7 @@ Partial Class frmScrptWndw
         '
         Me.KeyEventToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LeftToolStripMenuItem, Me.RightArrowToolStripMenuItem, Me.DownArrowToolStripMenuItem, Me.UpArrowToolStripMenuItem})
         Me.KeyEventToolStripMenuItem.Name = "KeyEventToolStripMenuItem"
-        Me.KeyEventToolStripMenuItem.Size = New System.Drawing.Size(130, 22)
+        Me.KeyEventToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.KeyEventToolStripMenuItem.Text = "Key Events"
         '
         'LeftToolStripMenuItem
@@ -295,7 +298,7 @@ Partial Class frmScrptWndw
         '
         Me.VariablesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.XLivesToolStripMenuItem, Me.XScoreToolStripMenuItem})
         Me.VariablesToolStripMenuItem.Name = "VariablesToolStripMenuItem"
-        Me.VariablesToolStripMenuItem.Size = New System.Drawing.Size(130, 22)
+        Me.VariablesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.VariablesToolStripMenuItem.Text = "Variables"
         '
         'XLivesToolStripMenuItem
@@ -343,20 +346,28 @@ Partial Class frmScrptWndw
         '
         'rtbScript
         '
-        Me.rtbScript.AutoScrollMinSize = New System.Drawing.Size(25, 15)
+        Me.rtbScript.AutoScrollMinSize = New System.Drawing.Size(27, 14)
+        Me.rtbScript.BackBrush = Nothing
+        Me.rtbScript.CharHeight = 14
+        Me.rtbScript.CharWidth = 8
         Me.rtbScript.CommentPrefix = "'"
         Me.rtbScript.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.rtbScript.DisabledColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer))
         Me.rtbScript.Dock = System.Windows.Forms.DockStyle.Fill
         Me.rtbScript.FoldingIndicatorColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.rtbScript.Font = New System.Drawing.Font("Courier New", 9.75!)
         Me.rtbScript.HighlightingRangeType = FastColoredTextBoxNS.HighlightingRangeType.AllTextRange
+        Me.rtbScript.IsReplaceMode = False
         Me.rtbScript.Language = FastColoredTextBoxNS.Language.VB
         Me.rtbScript.LeftBracket = Global.Microsoft.VisualBasic.ChrW(40)
         Me.rtbScript.Location = New System.Drawing.Point(3, 3)
         Me.rtbScript.Name = "rtbScript"
-        Me.rtbScript.PreferredLineWidth = 0
+        Me.rtbScript.Paddings = New System.Windows.Forms.Padding(0)
         Me.rtbScript.RightBracket = Global.Microsoft.VisualBasic.ChrW(41)
+        Me.rtbScript.SelectionColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.rtbScript.Size = New System.Drawing.Size(775, 397)
         Me.rtbScript.TabIndex = 3
+        Me.rtbScript.Zoom = 100
         '
         'TabPage2
         '
@@ -371,19 +382,27 @@ Partial Class frmScrptWndw
         '
         'rtbScript2
         '
-        Me.rtbScript2.AutoScrollMinSize = New System.Drawing.Size(25, 15)
+        Me.rtbScript2.AutoScrollMinSize = New System.Drawing.Size(2, 14)
+        Me.rtbScript2.BackBrush = Nothing
+        Me.rtbScript2.CharHeight = 14
+        Me.rtbScript2.CharWidth = 8
         Me.rtbScript2.CommentPrefix = "'"
         Me.rtbScript2.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.rtbScript2.DisabledColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer))
         Me.rtbScript2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.rtbScript2.FoldingIndicatorColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.rtbScript2.Font = New System.Drawing.Font("Courier New", 9.75!)
+        Me.rtbScript2.IsReplaceMode = False
         Me.rtbScript2.Language = FastColoredTextBoxNS.Language.VB
         Me.rtbScript2.LeftBracket = Global.Microsoft.VisualBasic.ChrW(40)
         Me.rtbScript2.Location = New System.Drawing.Point(3, 3)
         Me.rtbScript2.Name = "rtbScript2"
-        Me.rtbScript2.PreferredLineWidth = 0
+        Me.rtbScript2.Paddings = New System.Windows.Forms.Padding(0)
         Me.rtbScript2.RightBracket = Global.Microsoft.VisualBasic.ChrW(41)
+        Me.rtbScript2.SelectionColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.rtbScript2.Size = New System.Drawing.Size(775, 397)
         Me.rtbScript2.TabIndex = 0
+        Me.rtbScript2.Zoom = 100
         '
         'frmScrptWndw
         '
@@ -401,7 +420,9 @@ Partial Class frmScrptWndw
         Me.ToolStrip1.PerformLayout()
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
+        CType(Me.rtbScript, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage2.ResumeLayout(False)
+        CType(Me.rtbScript2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

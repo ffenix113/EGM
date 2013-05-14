@@ -324,14 +324,14 @@ Public Class frmEngine
     End Sub
 
     Public Sub FirstTimeBuildWork()
-        Try
-            BuildCore()
-            ' frmOutputTesting.txtOutput.Text = CoreText
-            ' frmOutputTesting.ShowDialog()
-            CompileGame(CoreText, EngineSetTitle)
-        Catch ex As Exception
+        'Try
+        BuildCore()
+        ' frmOutputTesting.txtOutput.Text = CoreText
+        ' frmOutputTesting.Show()
+        CompileGame(CoreText, EngineSetTitle)
+        'Catch ex As Exception
 
-        End Try
+        'End Try
 
     End Sub
 
@@ -379,49 +379,55 @@ Public Class frmEngine
     Private err As TextStyle = New TextStyle(Brushes.Red, Nothing, FontStyle.Regular)
     Public Sub CompileGame(ByVal ToCompile As String, ByVal Title As String)
 
-        Try
-            Dim objCompilerParameters As New System.CodeDom.Compiler.CompilerParameters()
-            ' Add reference
-            objCompilerParameters.ReferencedAssemblies.Add("System.dll")
-            objCompilerParameters.ReferencedAssemblies.Add("System.Windows.Forms.dll")
-            objCompilerParameters.ReferencedAssemblies.Add("Microsoft.VisualBasic.dll")
-            objCompilerParameters.ReferencedAssemblies.Add("System.Drawing.dll")
+        'Try
+        Dim objCompilerParameters As New System.CodeDom.Compiler.CompilerParameters()
+        ' Add reference
+        objCompilerParameters.ReferencedAssemblies.Add("System.dll")
+        objCompilerParameters.ReferencedAssemblies.Add("System.Windows.Forms.dll")
+        objCompilerParameters.ReferencedAssemblies.Add("Microsoft.VisualBasic.dll")
+        objCompilerParameters.ReferencedAssemblies.Add("System.Drawing.dll")
 
-            'Compile in memory
-            Dim Output1 As String = Title
-            objCompilerParameters.GenerateExecutable = True
-            objCompilerParameters.OutputAssembly = Output1
-            objCompilerParameters.CompilerOptions = "/target:winexe"
-            'objCompilerParameters.CompilerOptions = "/win32icon:" & My.Settings.gamesicon
+        'Compile in memory
+        Dim Output1 As String = Title
+        objCompilerParameters.GenerateExecutable = True
+        objCompilerParameters.OutputAssembly = Output1
+        objCompilerParameters.CompilerOptions = "/target:winexe"
+        'objCompilerParameters.CompilerOptions = "/win32icon:" & My.Settings.gamesicon
 
-            Dim strCode As String = ToCompile
-            Dim objCompileResults As System.CodeDom.Compiler.CompilerResults = _
-            CreateCompiler.CompileAssemblyFromSource(objCompilerParameters, strCode)
-            If objCompileResults.Errors.HasErrors Then
-                ' If an error occurs
-                
-                Dim msg As String = ""
-                For i As Integer = 0 To objCompileResults.Errors.Count - 1
-                    msg = msg & "Error: Line>" & objCompileResults.Errors(i).Line - 45 & ", " & objCompileResults.Errors(i).ErrorText & vbNewLine
-                    'frmScrptWndw.rtbScript.Se()
-                    'Dim Text As String = frmScrptWndw.rtbScript.Lines(objCompileResults.Errors(i).Line - 45)
-                    'frmScrptWndw.rtbScript(objCompileResults.Errors(i).Line - 46).BackgroundBrush = Brushes.MediumVioletRed
-                Next
-                MsgBox(msg)
-                'MsgBox("Error: Line>" & objCompileResults.Errors(0).Line - 45 & ", " & _
-                'objCompileResults.Errors(0).ErrorText)
-                Exit Sub
-            End If
-        Catch ex As Exception
-            MsgBox(ex.Message)
-        Finally
-            Try
-                Process.Start(Application.StartupPath & "\" & EngineSetTitle & ".exe")
-            Catch ex As Exception
+        Dim strCode As String = ToCompile
+        Dim objCompileResults As System.CodeDom.Compiler.CompilerResults = _
+        CreateCompiler.CompileAssemblyFromSource(objCompilerParameters, strCode)
+        If objCompileResults.Errors.HasErrors Then
+            ' If an error occurs
+            'MsgBox(frmScrptWndw.rtbScript.Leng
+            If frmScrptWndw.Visible = False Then frmScrptWndw.Show()
+            frmScrptWndw.rtbScript.Text = ScriptText
+            Dim msg As String = ""
+            'Exception handling - lines become red and messagebox pops up
+            For i As Integer = 0 To objCompileResults.Errors.Count - 1
+                msg = msg & "Error: Line>" & objCompileResults.Errors(i).Line - 45 & ", " & objCompileResults.Errors(i).ErrorText & vbNewLine
+                frmScrptWndw.rtbScript.SelectionStart = frmScrptWndw.rtbScript.Text.IndexOf(frmScrptWndw.rtbScript.Lines(objCompileResults.Errors(i).Line - 45))
+                frmScrptWndw.rtbScript.SelectionLength = frmScrptWndw.rtbScript.GetLineLength(objCompileResults.Errors(i).Line - 45) 'frmScrptWndw.rtbScript.Lines(frmScrptWndw.rtbScript.Lines(objCompileResults.Errors(i).Line - 45)).Length
+                frmScrptWndw.rtbScript(objCompileResults.Errors(i).Line - 45).BackgroundBrush = Brushes.MediumVioletRed
+                'frmScrptWndw.rtbScript.Se()
+                'Dim Text As String = frmScrptWndw.rtbScript.Lines(objCompileResults.Errors(i).Line - 45)
+                'frmScrptWndw.rtbScript(objCompileResults.Errors(i).Line - 46).BackgroundBrush = Brushes.MediumVioletRed
+            Next
+            MsgBox(msg)
+            'MsgBox("Error: Line>" & objCompileResults.Errors(0).Line - 45 & ", " & _
+            'objCompileResults.Errors(0).ErrorText)
+            Exit Sub
+        End If
+        'Catch ex As Exception
+        '    MsgBox(ex.Message)
+        'Finally
+        '    Try
+        '        Process.Start(Application.StartupPath & "\" & EngineSetTitle & ".exe")
+        '    Catch ex As Exception
 
-            End Try
+        '    End Try
 
-        End Try
+        'End Try
     End Sub
 
 

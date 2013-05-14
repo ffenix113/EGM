@@ -22,22 +22,32 @@ Partial Class frmOutputTesting
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmOutputTesting))
         Me.txtOutput = New FastColoredTextBoxNS.FastColoredTextBox()
+        CType(Me.txtOutput, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'txtOutput
         '
-        Me.txtOutput.AutoScrollMinSize = New System.Drawing.Size(25, 15)
+        Me.txtOutput.AutoScrollMinSize = New System.Drawing.Size(27, 14)
+        Me.txtOutput.BackBrush = Nothing
+        Me.txtOutput.CharHeight = 14
+        Me.txtOutput.CharWidth = 8
         Me.txtOutput.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtOutput.DisabledColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer))
         Me.txtOutput.Dock = System.Windows.Forms.DockStyle.Fill
         Me.txtOutput.FoldingIndicatorColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.txtOutput.Font = New System.Drawing.Font("Courier New", 9.75!)
+        Me.txtOutput.IsReplaceMode = False
         Me.txtOutput.Language = FastColoredTextBoxNS.Language.VB
         Me.txtOutput.Location = New System.Drawing.Point(0, 0)
         Me.txtOutput.Name = "txtOutput"
-        Me.txtOutput.PreferredLineWidth = 0
+        Me.txtOutput.Paddings = New System.Windows.Forms.Padding(0)
+        Me.txtOutput.SelectionColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtOutput.Size = New System.Drawing.Size(525, 383)
         Me.txtOutput.TabIndex = 0
+        Me.txtOutput.Zoom = 100
         '
         'frmOutputTesting
         '
@@ -50,6 +60,7 @@ Partial Class frmOutputTesting
         Me.Name = "frmOutputTesting"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Output - Used for testing only"
+        CType(Me.txtOutput, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

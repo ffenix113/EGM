@@ -4,7 +4,7 @@
   <description asmv2:iconFile="icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="Explosive Game Maker" version="1.0.4882.25072" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="Explosive Game Maker" version="1.0.4882.33184" language="neutral" processorArchitecture="msil" />
     <commandLine file="Explosive Game Maker.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Explosive Game Maker.exe" size="285184">
-      <assemblyIdentity name="Explosive Game Maker" version="1.0.4882.25072" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Explosive Game Maker.exe" size="286720">
+      <assemblyIdentity name="Explosive Game Maker" version="1.0.4882.33184" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ty73YTrvD65owSSxLAaB1U0OhwK19W1zwQ9ChBNt5Dw=</dsig:DigestValue>
+        <dsig:DigestValue>b5PGGzTGF8NcPqJly/K2tBppxkC/A/WieOL5JZ7hME0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
